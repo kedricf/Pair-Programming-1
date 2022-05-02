@@ -1,0 +1,29 @@
+
+
+// var numArray = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// numArray = numArray.filter((number) => {
+//   for (var i = 2; i <= Math.sqrt(number); i++) {
+//     if (number % i === 0) return false;
+//   }
+//   return true;
+// });
+
+// console.log(numArray);
+
+
+function vowelChecker (x){
+    if(x.length == 1) {
+    let vowels = new Array["a", "e", "i", "o", "u"];
+        if (x == vowels){
+
+        }
+
+    }
+       return `${x} is a vowel`;
+}
+
+
+// function isVowel(c) {
+//     return ['a', 'e', 'i', 'o', 'u'].indexOf(c.toLowerCase()) !== -1
+// }
